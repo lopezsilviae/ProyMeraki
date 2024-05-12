@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- para compatibilidad internet xplorer -->
+  <meta http-equiv=”X-UA-Compatible” content=”ie=edge”>
+  <!-- para web responsive-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meraki</title>
+  <link rel="icon" type="image/png" href="images/logoMeraki.png" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+ <div class="contenedor">
+        
+
+        <header class="headerb">
+    
+       <img class="logo" src="images/logoMeraki.png">
+         
+         <nav class="menu">
+           <ul>
+               <li> <a href="index.html">Inicio</a></li>
+               <li> <a href="home.html">Home</a></li>
+               <li> <a href="servicios.html">Servicios</a></li>
+               <li> <a href="#">Contacto</a></li>
+           </ul>
+       </nav>
+     </header>    
+    <section id="contacto" class="main-somos">
+
+        <form id="form-cargar" >
+            <div>
+                <label for="Nombre">Nombre</label>
+                <input  type="text" name="nombre" id="nombre" required>
+            </div>
+            <div>
+                <label for="Celular">Celular</label>
+                <input type="tel" name="celular" id="celular" pattern="[0-9]{10}" title="10 Números sin guiones"  required>
+                
+            </div>
+            <div>
+                <label for="Email">Correo de contacto</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <input type="checkbox" name="cliente" id="cliente" >
+                <label for="Cliente">¿Es Cliente?</label>
+            </div>
+            <div>
+                <label for="Consulta">Su Consulta</label>
+                <input type="textarea" name="consulta" id="consulta" required>
+            </div>
+            <div>
+                <input type="submit" value="Consultar" >
+
+           
+            </div>
+            <div>
+                <label type="text" id="respuesta"></label>
+            </div>
+        </form>   
+<!--    </div>-->
+    </section>
+        <!--footer-->
+        <footer class="footerb">
+
+            <div class="centrof">
+                  <p>MERAKI &copy; 2024</p> 
+                  <h4>Corte y Grabado Laser</h4>
+                  
+  
+            </div>
+            <div class="redesf">
+              <a href="https://www.instagram.com/merakisustentable/?hl=es" target="_blank"><img src="images/instagram.png" alt="instagram"></a>
+              <a href="https://wa.me/5491122334455" target="_blank"><img src="images/whatsapp.png" alt="whatsapp" ></a>         
+              <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook"></a> 
+            </div>         
+  
+              <div class="autorf">
+              <span class="grupo">Derechos Reservados Grupo 13</span>
+            </div>
+        </footer>
+          
+      </div><!--fin contenedor principal-->    
+        <script src="js/miraki.js"></script>
+</body>
+</html>  
